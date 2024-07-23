@@ -1373,7 +1373,7 @@ resource "aws_security_group" "syclla_security_group" {
 }
 
 
-# postgres instance
+# syclla instance
 
 resource "aws_instance" "syclla_instance" {
   # ami to be replaced with actual ami
